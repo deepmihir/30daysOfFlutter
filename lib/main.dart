@@ -23,3 +23,11 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+
+// in the Day 11 branch there is expanation of context tree
+// there is three types of tree 1) widget tree 2)element tree 3)render tree
+//1) widget tree : in which we write
+//2) element tree: context of widget(location)
+//3) widget tree : which draws on empty canvas

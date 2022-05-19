@@ -13,7 +13,7 @@ class ItemWidget extends StatelessWidget {
             print("Iphone 12 pressed");
           },
           leading: Image.network(item.image),
-          title: Text("Iphone 12 pro"),
+          title: Text(item.name),
           subtitle: Text(item.desc),
           trailing: Text(
             "\$${item.price}",
